@@ -4,8 +4,8 @@ import { ArrowUpRight } from "lucide-react";
 const contacts = [
   { label: "Email",    value: "oluwatoniadebanji@gmail.com",              href: "mailto:adebanji@sweeftcode.com",             desc: "Best for project inquiries" },
   { label: "LinkedIn", value: "linkedin.com/in/adebanji-oluwatoni-5758141b8",   href: "https://linkedin.com/in/adebanji-oluwatoni-5758141b8", desc: "Professional profile" },
-  { label: "GitHub",   value: "github.com/chirrylun",                  href: "https://github.com/adebanji",               desc: "Code & open source" },
-  { label: "Telegram", value: "@oluwatoniadebanji",                            href: "https://t.me/adebanji",                     desc: "Fastest response" },
+  { label: "GitHub",   value: "github.com/chirrylun",                  href: "https://github.com/chirrylun",               desc: "Code & open source" },
+  { label: "Telegram", value: "@oluwatoniadebanji",                            href: "https://t.me/oluwatoniadebanji",                     desc: "Fastest response" },
 ];
 
 export default function Contact() {
