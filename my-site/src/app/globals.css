@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "DM Sans", sans-serif;
+  --font-display: "Syne", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-bg: #f9f8f6;
+  --color-bg-2: #f2f0ed;
+  --color-surface: #ffffff;
+  --color-border: #e4e1dc;
+  --color-border-2: #d0ccc6;
+
+  --color-ink: #111110;
+  --color-ink-2: #3a3935;
+  --color-ink-3: #7a7772;
+  --color-ink-4: #b0ada8;
+
+  --color-accent: #1a1a1a;
+  --color-accent-green: #2d5a3d;
+}
+
+@layer base {
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--color-bg);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::selection {
+    background: var(--color-ink);
+    color: var(--color-bg);
+  }
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
+
+.fade-up   { opacity: 0; animation: fadeUp 0.5s ease forwards; }
+.delay-1   { animation-delay: 0.1s; }
+.delay-2   { animation-delay: 0.2s; }
+.delay-3   { animation-delay: 0.35s; }
+.delay-4   { animation-delay: 0.5s; }
