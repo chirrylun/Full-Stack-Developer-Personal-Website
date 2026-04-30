@@ -27,7 +27,7 @@ export default function Stack() {
           <h2 style={{ fontFamily: "var(--font-display)", fontSize: "clamp(28px, 3.5vw, 42px)", fontWeight: 800, letterSpacing: "-0.03em", color: "var(--color-ink)" }}>
             Tech Stack
           </h2>
-          <span style={{ fontFamily: "var(--font-mono)", fontSize: 11, color: "var(--color-ink-4)" }}>10+ years</span>
+          <span style={{ fontFamily: "var(--font-mono)", fontSize: 11, color: "var(--color-ink-4)" }}>8+ years</span>
         </div>
 
         {/* 4-column grid */}
