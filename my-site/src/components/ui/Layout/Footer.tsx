@@ -8,7 +8,7 @@ export default function Footer() {
         </span>
         <div style={{ display: "flex", gap: 24, flexWrap: "wrap" }}>
           {[
-            { label: "email",    href: "mailto:adebanji@sweeftcode.com"            },
+            { label: "email",    href: "mailto:oluwatoniadebanji@gmail.com"            },
             { label: "linkedin", href: "https://linkedin.com/in/adebanji-oluwatoni-5758141b8"},
             { label: "github",   href: "https://github.com/chirrylun"              },
             { label: "telegram", href: "https://t.me/adebanji"                    },

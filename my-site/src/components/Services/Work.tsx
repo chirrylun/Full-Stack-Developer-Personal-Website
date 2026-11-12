@@ -24,11 +24,12 @@ const projects = [
     url: "https://www.swappa.chat",
     summary: "WhatsApp-native escrow marketplace for buying and selling digital assets in Nigeria: Google Ads and Play Console accounts, AdSense sites, social media accounts and gift cards. Buyer and seller agree terms in chat, payment is held in escrow, and funds are released only once the buyer confirms delivery.",
     highlights: [
-      "Command-driven WhatsApp flow: browse listings, make an offer, pay into escrow, confirm delivery",
-      "Human-mediated escrow with an admin dashboard for listing review and dispute resolution",
-      "Next.js 16 marketing site with FAQ, sitemap and llms.txt for search and AI discoverability",
+      "WhatsApp bot with session-based flows for selling, browsing, offers, buy requests, delivery confirmation and disputes, behind signature-verified Meta webhooks",
+      "Flutterwave escrow payment links with tiered platform fees and a manual payout-release step",
+      "Next.js admin dashboard: listings, transactions, pending releases, disputes, users, broadcasts and analytics",
+      "Next.js marketing site with FAQ, sitemap and llms.txt for search and AI discoverability",
     ],
-    stack: ["Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui", "WhatsApp"],
+    stack: ["Next.js", "TypeScript", "Node.js", "Express", "MongoDB", "WhatsApp Cloud API", "Flutterwave", "Zustand", "Tailwind CSS"],
     stat: "Escrow",
   },
   {

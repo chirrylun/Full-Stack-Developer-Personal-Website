@@ -71,7 +71,7 @@ export default function Navbar() {
           {links.map(l => (
             <a key={l.href} href={l.href} onClick={() => setOpen(false)} style={{ display: "block", padding: "11px 0", fontSize: 15, color: "var(--color-ink-2)", textDecoration: "none", borderBottom: "1px solid var(--color-border)" }}>{l.label}</a>
           ))}
-          <a href="mailto:adebanji@sweeftcode.com" style={{ display: "block", marginTop: 14, textAlign: "center", background: "var(--color-ink)", color: "var(--color-bg)", padding: "12px", borderRadius: 8, fontSize: 14, fontWeight: 500, textDecoration: "none" }}>Hire me</a>
+          <a href="mailto:oluwatoniadebanji@gmail.com" style={{ display: "block", marginTop: 14, textAlign: "center", background: "var(--color-ink)", color: "var(--color-bg)", padding: "12px", borderRadius: 8, fontSize: 14, fontWeight: 500, textDecoration: "none" }}>Hire me</a>
         </div>
       )}
 

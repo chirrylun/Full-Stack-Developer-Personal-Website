@@ -29,7 +29,7 @@ export default function About() {
               Two of my startups were shut down by Nigerian regulatory changes not by product failure. I learnt A LOT on the journey and worked with amazing people. Growly hit 17K+ daily active users in 2 months. Hivestak operated at scale in DeFi. Both were production-quality builds.
             </p>
             <p style={{ fontSize: 15.5, lineHeight: 1.8, color: "var(--color-ink-3)" }}>
-              I studied at Kwame Nkrumah University of Science and Technology. Today I build DealWavv with my co-founder, run Swappa and CloutEye, and take selective contract work where I can add serious value fast.
+              I studied at Kwame Nkrumah University of Science and Technology. Today I build CloutEye with my co-founder, alongside Swappa and DealWavv, and take selective contract work where I can add serious value fast.
             </p>
 
             {/* Traits */}
