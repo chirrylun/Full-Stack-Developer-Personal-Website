@@ -4,10 +4,39 @@ import { ArrowUpRight } from "lucide-react";
 const projects = [
   {
     index: "01",
-    title: "SweeftCode",
+    title: "CloutEye",
+    type: "Creator Economy · Social Analytics",
+    url: "https://www.clouteye.com",
+    summary: "Performance marketplace connecting African brands with creators, backed by social analytics. Brands post briefs with a goal, platform and price; creators accept, deliver, and get paid from escrow once the work is approved, with results tracked per creator as cost per result. Also includes a social listening engine across TikTok, Instagram and X.",
+    highlights: [
+      "Shared-cache scraping pipeline: one scrape per platform and keyword, fanned out to every client that needs it",
+      "Collab marketplace: briefs, escrow-backed payments, creator wallets, withdrawals, disputes and fulfillment flows",
+      "Separate brand, creator, partner and admin portals with their own auth flows",
+      "Flutterwave billing, referral and rewards ledger, PDF report generation",
+    ],
+    stack: ["Next.js", "TypeScript", "Node.js", "Express", "Supabase", "PostgreSQL", "Zustand", "Apify", "Flutterwave"],
+    stat: "5 platforms",
+  },
+  {
+    index: "02",
+    title: "Swappa",
+    type: "Marketplace · Escrow · WhatsApp",
+    url: "https://www.swappa.chat",
+    summary: "WhatsApp-native escrow marketplace for buying and selling digital assets in Nigeria: Google Ads and Play Console accounts, AdSense sites, social media accounts and gift cards. Buyer and seller agree terms in chat, payment is held in escrow, and funds are released only once the buyer confirms delivery.",
+    highlights: [
+      "Command-driven WhatsApp flow: browse listings, make an offer, pay into escrow, confirm delivery",
+      "Human-mediated escrow with an admin dashboard for listing review and dispute resolution",
+      "Next.js 16 marketing site with FAQ, sitemap and llms.txt for search and AI discoverability",
+    ],
+    stack: ["Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui", "WhatsApp"],
+    stat: "Escrow",
+  },
+  {
+    index: "03",
+    title: "Unified API Gateway",
     type: "API Infrastructure · Developer Tools",
-    url: "https://sweeftcode.com",
-    summary: "Universal API gateway and SDK platform built for African developers. One consistent interface across fragmented fintech, identity, and logistics providers replacing multiple SDK imports with one — Works with Paystack, Mono, YouVerify, and 5+ more.",
+    url: null,
+    summary: "Universal API gateway and SDK platform built for African developers. One consistent interface across fragmented fintech, identity, and logistics providers replacing multiple SDK imports with one — Works with Paystack, Mono, YouVerify, and 5+ more. No longer live.",
     highlights: [
       "Monorepo: Next.js frontend + Node/Express backend + Prisma ORM",
       "Scope-based middleware for tiered API access control",
@@ -17,10 +46,10 @@ const projects = [
       "Admin dashboard: users, integrations, API data, log (with pipeline-level error handling), billing plans",
     ],
     stack: ["Next.js", "TypeScript", "Node.js", "Express", "Prisma", "MongoDB", "Zustand"],
-    stat: "Live",
+    stat: "Unified API",
   },
   {
-    index: "02",
+    index: "04",
     title: "Growly",
     type: "Fintech · Consumer",
     url: null,
@@ -34,7 +63,7 @@ const projects = [
     stat: "17,000+ DAU",
   },
   {
-    index: "03",
+    index: "05",
     title: "DealWavv",
     type: "Founder · Investor Platform",
     url: "https://dealwavv.com",
@@ -47,7 +76,7 @@ const projects = [
     stat: "$200K+ MRR",
   },
   {
-    index: "04",
+    index: "06",
     title: "Sweeftly",
     type: "E-commerce · Mobile",
     url: null,
@@ -61,7 +90,7 @@ const projects = [
     stat: "1,700+ installs",
   },
   {
-    index: "05",
+    index: "07",
     title: "Hivestak",
     type: "DeFi · Web3",
     url: null,
@@ -73,6 +102,34 @@ const projects = [
     ],
     stack: ["React Native", "Web3.js", "Node.js", "Solidity"],
     stat: "Multi-chain",
+  },
+  {
+    index: "08",
+    title: "Affordables",
+    type: "Retail · Mobile POS",
+    url: null,
+    summary: "Mobile point-of-sale and inventory app for small merchants. Manage products and categories, ring up orders at checkout, track customers, payments and stock movement, and delegate work to sales agents with scoped permissions.",
+    highlights: [
+      "Expo / React Native app with cart, discount and manual payment checkout flows",
+      "Agent management with per-agent permission controls",
+      "Sales analytics with charts, plus PDF and Excel export of records",
+    ],
+    stack: ["React Native", "Expo", "React Navigation", "REST APIs"],
+    stat: "Mobile POS",
+  },
+  {
+    index: "09",
+    title: "Inscrypt",
+    type: "Agency · Web",
+    url: null,
+    summary: "Company website for Inscrypt Tech, a web and mobile development agency. Service pages for websites, mobile apps, UX/UI research, digital marketing and in-house tech teams, plus a portfolio and lead capture.",
+    highlights: [
+      "Interactive build-tracker pages showing client website progress phase by phase",
+      "Animated Next.js UI built with Framer Motion and MUI",
+      "EmailJS-powered contact flow with no backend to maintain",
+    ],
+    stack: ["Next.js", "TypeScript", "Tailwind CSS", "MUI", "Framer Motion"],
+    stat: "Agency site",
   },
 ];
 

@@ -2,7 +2,7 @@
 const categories = [
   {
     label: "Frontend",
-    items: ["React / Next.js", "TypeScript", "React Native", "Zustand / Jotai / Context", "Tailwind · Chakra UI · shadcn", "MapLibre GL JS"],
+    items: ["React / Next.js", "TypeScript", "React Native / Expo", "Zustand / Jotai / Context", "Tailwind · Chakra UI · shadcn", "MapLibre GL JS"],
   },
   {
     label: "Backend",
@@ -10,7 +10,7 @@ const categories = [
   },
   {
     label: "Data & Infrastructure",
-    items: ["MongoDB", "PostgreSQL / SQLite", "Monorepo / Nx / pnpm", "Docker", "Vercel · Heroku · Render", "ESLint / Ruff"],
+    items: ["MongoDB", "PostgreSQL / Supabase / SQLite", "Monorepo / Nx / pnpm", "Docker", "Vercel · Heroku · Render", "ESLint / Ruff"],
   },
   {
     label: "AI & Workflow",
