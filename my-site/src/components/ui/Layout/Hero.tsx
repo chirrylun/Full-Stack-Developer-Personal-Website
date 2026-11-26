@@ -25,7 +25,7 @@ export default function Hero() {
           {/* Right meta column */}
           <div className="fade-up delay-2" style={{ paddingBottom: 6 }}>
             <p style={{ fontSize: 15, lineHeight: 1.75, color: "var(--color-ink-3)", marginBottom: 32 }}>
-              8+ years designing, building, and shipping complete production systems across fintech, developer infrastructure, and consumer products.
+              I've spent 6+ years designing, building, and shipping complete production systems across fintech, developer infrastructure, and consumer products.
             </p>
 
             <div style={{ display: "flex", flexDirection: "column", gap: 0, borderTop: "1px solid var(--color-border)", marginBottom: 28 }}>

@@ -1,10 +1,10 @@
 "use client"
 const timeline = [
   { year: "2026–now", title: "Swappa + CloutEye",       desc: "A WhatsApp escrow marketplace for digital assets in Nigeria, and a creator-brand collab marketplace with social analytics for the African market." },
-  { year: "2024–now", title: "DealWavv + Unified API Gateway", desc: "Two concurrent ventures — a pitch platform connecting founders with investors, and a unified API gateway for African developers (since sunset)." },
+  { year: "2024–now", title: "DealWavv + SweeftCode", desc: "Two concurrent ventures a pitch platform connecting african founders with investors, and a unified API gateway for African developers." },
   { year: "2022–23",  title: "Hivestak",                desc: "Multi-chain DeFi platform. Shut down by Nigerian VASP capital requirements at operating scale, not by product failure." },
-  { year: "2020–22",  title: "Growly",                  desc: "Lending and savings fintech. 17K+ daily active users. Won BizzTech Africa Startup Competition. Shut down by lending regulations." },
-  { year: "2019–20",  title: "Sweeftly",                desc: "Merchant e-commerce platform. 1,700+ Play Store installs. Built and shipped independently." },
+  { year: "2020–22",  title: "Growly",                  desc: "A lending and savings fintech connecting small scale lenders with short term loan borrowers. Scaled tp 17K+ daily active users on a $4k fundraise. Won BizzTech Africa Startup Competition. We were shut down by lending regulations in Nigeria." },
+  { year: "2019–20",  title: "Sweeftly",                desc: "A merchant e-commerce platform giving sellers free storefronts with full inventory and invoice management. 1,700+ Play Store installs." },
 ];
 
 export default function About() {
@@ -23,13 +23,13 @@ export default function About() {
           {/* Bio */}
           <div>
             <p style={{ fontSize: 15.5, lineHeight: 1.8, color: "var(--color-ink-2)", marginBottom: 18 }}>
-              I'm a full-stack engineer and serial founder based in Lagos, Nigeria. Across over 8 years I've designed, built, and shipped complete production systems across fintech, e-commerce, DeFi, developer infrastructure, and consumer products. Most of them have been solo or in small founding teams.
+              I'm a full-stack engineer and serial founder based in Lagos, Nigeria. Across over 6+ years I've designed, built, and shipped complete production systems across fintech, e-commerce, DeFi, developer infrastructure, and consumer products. Most of them have been built solo or in small founding teams so I'm  great with working under pressure when needed.
             </p>
             <p style={{ fontSize: 15.5, lineHeight: 1.8, color: "var(--color-ink-2)", marginBottom: 18 }}>
-              Two of my startups were shut down by Nigerian regulatory changes not by product failure. I learnt A LOT on the journey and worked with amazing people. Growly hit 17K+ daily active users in 2 months. Hivestak operated at scale in DeFi. Both were production-quality builds.
+              Two of my startups were shut down by Nigerian regulatory changes not by product failure. I learnt A LOT on the journey and worked with amazing people.
             </p>
             <p style={{ fontSize: 15.5, lineHeight: 1.8, color: "var(--color-ink-3)" }}>
-              I studied at Kwame Nkrumah University of Science and Technology. Today I build CloutEye with my co-founder, alongside Swappa and DealWavv, and take selective contract work where I can add serious value fast.
+              I studied at Kwame Nkrumah University of Science and Technology. Today I build CloutEye with my co-founder, and take selective contract work where I can add serious value fast.
             </p>
 
             {/* Traits */}
