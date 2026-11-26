@@ -24,7 +24,7 @@ export default function Footer() {
           ))}
         </div>
         <span style={{ fontFamily: "var(--font-mono)", fontSize: 11, color: "var(--color-ink-4)" }}>
-          available · $40/hr
+          available · $30/hr
         </span>
       </div>
     </footer>

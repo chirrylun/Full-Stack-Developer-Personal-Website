@@ -31,7 +31,7 @@ export default function Hero() {
             <div style={{ display: "flex", flexDirection: "column", gap: 0, borderTop: "1px solid var(--color-border)", marginBottom: 28 }}>
               {[
                 ["Stack",      "React · Next.js · Python · Node · TS"],
-                ["Rate",       "$40 / hour · contract"],
+                ["Rate",       "$30 / hour · contract"],
                 ["Autonomy",   "High — minimal oversight"],
               ].map(([k, v]) => (
                 <div key={k} style={{ display: "flex", gap: 16, padding: "10px 0", borderBottom: "1px solid var(--color-border)" }}>
