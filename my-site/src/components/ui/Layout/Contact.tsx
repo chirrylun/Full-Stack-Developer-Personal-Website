@@ -25,7 +25,7 @@ export default function Contact() {
           {/* Left */}
           <div>
             <p style={{ fontSize: 16, lineHeight: 1.8, color: "var(--color-ink-2)", marginBottom: 16 }}>
-              I'm open to contract and freelance work — remote, async-first, high autonomy. If you have a system to build or a product that needs to ship, I'd like to hear about it.
+              I'm open to contract and freelance work. Remote-first, high autonomy. If you have a system to build or a product that needs to ship, I'd like to hear about it.
             </p>
             <p style={{ fontFamily: "var(--font-mono)", fontSize: 12, color: "var(--color-ink-4)", lineHeight: 1.7 }}>
               No long meetings. No hand-holding. Just good work shipped fast.
