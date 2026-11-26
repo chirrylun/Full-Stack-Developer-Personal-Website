@@ -7,10 +7,10 @@ const projects = [
     title: "CloutEye",
     type: "Creator Economy · Social Analytics",
     url: "https://www.clouteye.com",
-    summary: "Performance marketplace connecting African brands with creators, backed by social analytics. Brands post briefs with a goal, platform and price; creators accept, deliver, and get paid from escrow once the work is approved, with results tracked per creator as cost per result. Also includes a social listening engine across TikTok, Instagram and X.",
+    summary: "A creator-led marketplace connecting African brands with nano-creators, providing social analytics and engagement statsistics in real-time. Brands post briefs with a goal, platform and price; creators accept, deliver, and get paid from escrow once the work is approved, with results tracked per creator as cost per result. I also included a social listening engine across TikTok, Instagram and X.",
     highlights: [
-      "Shared-cache scraping pipeline: one scrape per platform and keyword, fanned out to every client that needs it",
-      "Collab marketplace: briefs, escrow-backed payments, creator wallets, withdrawals, disputes and fulfillment flows",
+      "A shared-cache scraping pipeline: one scrape per platform and keyword, fanned out to every client that needs it",
+      "A collab marketplace: briefs, escrow-backed payments, creator wallets, withdrawals, disputes and fulfillment flows",
       "Separate brand, creator, partner and admin portals with their own auth flows",
       "Flutterwave billing, referral and rewards ledger, PDF report generation",
     ],
@@ -22,9 +22,9 @@ const projects = [
     title: "Swappa",
     type: "Marketplace · Escrow · WhatsApp",
     url: "https://www.swappa.chat",
-    summary: "WhatsApp-native escrow marketplace for buying and selling digital assets in Nigeria: Google Ads and Play Console accounts, AdSense sites, social media accounts and gift cards. Buyer and seller agree terms in chat, payment is held in escrow, and funds are released only once the buyer confirms delivery.",
+    summary: "A WhatsApp-native escrow marketplace for buying and selling digital assets in Nigeria: Google Ads and Play Console accounts, AdSense sites, social media accounts and gift cards. Buyer and seller agree terms in chat, payment is held in escrow, and funds are released only once the buyer confirms delivery.",
     highlights: [
-      "WhatsApp bot with session-based flows for selling, browsing, offers, buy requests, delivery confirmation and disputes, behind signature-verified Meta webhooks",
+      "I built a WhatsApp bot with session-based flows for selling, browsing, offers, buy requests, delivery confirmation and disputes, behind signature-verified Meta webhooks",
       "Flutterwave escrow payment links with tiered platform fees and a manual payout-release step",
       "Next.js admin dashboard: listings, transactions, pending releases, disputes, users, broadcasts and analytics",
       "Next.js marketing site with FAQ, sitemap and llms.txt for search and AI discoverability",
@@ -34,10 +34,10 @@ const projects = [
   },
   {
     index: "03",
-    title: "Unified API Gateway",
+    title: "SweeftCode",
     type: "API Infrastructure · Developer Tools",
     url: null,
-    summary: "Universal API gateway and SDK platform built for African developers. One consistent interface across fragmented fintech, identity, and logistics providers replacing multiple SDK imports with one — Works with Paystack, Mono, YouVerify, and 5+ more. No longer live.",
+    summary: "I built a universal API gateway and SDK platform initially for myself and extended it to other African developers. One consistent interface across fragmented fintech, identity, and logistics providers replacing multiple SDK imports with one. It works with Paystack, Mono, YouVerify, and 5+ more.",
     highlights: [
       "Monorepo: Next.js frontend + Node/Express backend + Prisma ORM",
       "Scope-based middleware for tiered API access control",
@@ -54,7 +54,7 @@ const projects = [
     title: "Growly",
     type: "Fintech · Consumer",
     url: null,
-    summary: "Lending and savings platform for everyday Nigerians connecting Lenders with Borrowers for short-term loans. Scaled to 17,000+ daily active users with 2 months before being shut down by lending regulation.",
+    summary: "A lending and savings platform for everyday Nigerians connecting Lenders with Borrowers for short-term loans. This was my first startup out of University. Scaled to 17,000+ daily active users within 4 months before being shut down by lending regulation in Nigeria.",
     highlights: [
       "Scaled to 17K+ DAUs in 2 months",
       "Real-time transaction engine with local payment rails",
@@ -68,7 +68,7 @@ const projects = [
     title: "DealWavv",
     type: "Founder · Investor Platform",
     url: "https://dealwavv.com",
-    summary: "TikTok-style pitch platform connecting African founders with investors. 60-second pitches, swipe-based decisions with no wasted meetings and no more cold emails. Currently 3 committed startups, $200K+ combined MRR ($2M+ ARR), 400K+ users, $4M raise in motion.",
+    summary: "A TikTok-style pitch platform connecting African founders with investors. Founders pitch in 60-seconds, investors make swipe-based decisions with no wasted meetings and no more cold emails.",
     highlights: [
       "Full-stack Next.js + React Native dual platform",
       "3 committed startups onboarded at pre-launch stage",
@@ -81,9 +81,9 @@ const projects = [
     title: "Sweeftly",
     type: "E-commerce · Mobile",
     url: null,
-    summary: "Merchant e-commerce platform enabling Nigerian small businesses to accept payments and manage digital storefronts. Built, launched, and maintained independently.",
+    summary: "A merchant e-commerce platform enabling Nigerian small businesses to accept payments and provided them with free digital storefronts. I built, launched, and maintained it independently. Merchants had full inventory and invoice management functionality",
     highlights: [
-      "End-to-end React Native mobile app",
+      "End-to-end React Native mobile app and web interface",
       "Merchant dashboard: inventory, orders, payments",
       "1,700+ Play Store installs",
     ],
@@ -95,7 +95,7 @@ const projects = [
     title: "Hivestak",
     type: "DeFi · Web3",
     url: null,
-    summary: "Multi-chain DeFi platform with crypto wallet, staking, and yield features for the African market. Shut down by Nigerian VASP capital requirements at operating scale.",
+    summary: "A multi-chain DeFi platform with crypto wallet, staking, and yield features for African crypto asset holders. After roughly 2 months, it had to be shut down due to Nigerian VASP capital requirements.",
     highlights: [
       "Multi-chain wallet with swap and staking",
       "React Native app with 2FA gate and surgical ChangePin integration",
@@ -109,7 +109,7 @@ const projects = [
     title: "Affordables",
     type: "Retail · Mobile POS",
     url: null,
-    summary: "Mobile point-of-sale and inventory app for small merchants. Manage products and categories, ring up orders at checkout, track customers, payments and stock movement, and delegate work to sales agents with scoped permissions.",
+    summary: "A Mobile point-of-sale and inventory app for a merchant client. Manage products and categories, ring up orders at checkout, track customers, payments and stock movement, and delegate work to sales agents with scoped permissions.",
     highlights: [
       "Expo / React Native app with cart, discount and manual payment checkout flows",
       "Agent management with per-agent permission controls",
@@ -123,7 +123,7 @@ const projects = [
     title: "Inscrypt",
     type: "Agency · Web",
     url: null,
-    summary: "Company website for Inscrypt Tech, a web and mobile development agency. Service pages for websites, mobile apps, UX/UI research, digital marketing and in-house tech teams, plus a portfolio and lead capture.",
+    summary: "Built a company website for Inscrypt Tech, a web and mobile development agency. Service pages for websites, mobile apps, UX/UI research, digital marketing and in-house tech teams, plus a portfolio and lead capture.",
     highlights: [
       "Interactive build-tracker pages showing client website progress phase by phase",
       "Animated Next.js UI built with Framer Motion and MUI",
